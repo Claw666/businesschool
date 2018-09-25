@@ -1,0 +1,54 @@
+<div class="row grow-appear">
+  <div class="dep-middle-row">
+    <div class="col s25 staff-member-img">
+      <span class="" ng-if="$ctrl.company.complogo == 'noimage.jpg'">
+        <img src="/uploads/avatar.png">
+      </span>
+      <span class="" ng-if="$ctrl.company.complogo !== 'noimage.jpg'">
+        <img src="/uploads/logos/{{$ctrl.company.complogo}}">
+      </span>
+      <div>
+        <span class="comp-info-container">
+          <p><i class="far fa-envelope"></i>{{$ctrl.company.compemail}}</p>
+          <p><i class="fas fa-phone"></i>{{$ctrl.company.compphone}}</p>
+          <p><i class="fas fa-map-marker-alt"></i>Room Number: {{$ctrl.company.comproom}}</p>
+        </span>
+      </div>
+    </div>
+    <div class="col s4 staff-main-text">
+      <h2 class="staff-name">{{$ctrl.company.compname}} <!--<span class="staff-title">{{$ctrl.company.stafftitle}}</span>--></h2>
+      <h4 class="staff-position">{{$ctrl.company.staffpos}}</h4>
+      <p class="staff-content">{{$ctrl.company.stafftext}}</p>
+    </div>
+    <div class="col s5 staff-map">
+      <div ng-if="$ctrl.company.comproom.includes(30)">
+        <p class="level-3">Level 2</p>
+        <div svg-map-level-three></div>
+      </div>
+      <div ng-if="$ctrl.company.comproom.includes(40)">
+        <p class="level-4">Level 3</p>
+        <div svg-map-level-four></div>
+      </div>
+      <div ng-if="$ctrl.company.comproom.includes(50)">
+        <p class="level-5">Level 4</p>
+        <div svg-map-level-five></div>
+      </div>
+      <div ng-if="$ctrl.company.comproom.includes(60)">
+        <p class="level-6">Level 5</p>
+        <div svg-map-level-six></div>
+      </div>
+    </div>
+  </div>
+  <div class="row footer-menu">
+    <div class="col s1 center">
+      <a ui-sref="home"><i class="fa fa-home fa-5x" aria-hidden="true" id="home"></i></a>
+      <div class="menu-btn thin" >HOME</div>
+    </div>
+    <div class="col s10">
+    </div>
+    <div class="col s1 center">
+      <a onclick="history.back()"><i class="fa fa-undo-alt fa-5x" aria-hidden="true" id="back"></i></a>
+      <div class="menu-btn thin" >BACK</div>
+    </div>
+  </div>
+</div>

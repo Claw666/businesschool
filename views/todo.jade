@@ -1,0 +1,91 @@
+extends layout
+
+block content
+  form(method='post', action='/todos/edit/#{todo._id}' ,enctype='multipart/form-data')
+    .form-group
+      label Name
+      input.form-control(name='compname', type='text', value='#{todo.compname}')
+    label Leadership Position
+    .form-group
+      label(for="headofnothing").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='0', id='headonothing' checked)
+        | Nothing
+      label(for="headofschool").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='1', id='headofschool')
+        | Head of School
+      label(for="depheadofschool").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='2', id='depheadofschool')
+        | Deputy Head (School)
+      label(for="depheadofedu").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='3', id='depheadofedu')
+        | Deputy Head (Education)
+      label(for="depheadofedu2").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='4', id='depheadofedu2')
+        | Deputy Head (Education 2)
+      label(for="dirofenterprise").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='5', id='dirofenterprise')
+        | Director of Enterprise
+      label(for="headofaccount").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='6', id='headofaccount')
+        | Head of Accounting
+      label(for="headofdec").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='7', id='headofdec')
+        | Head of Decision Analytics
+      label(for="headofbanking").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='8', id='headofbanking')
+        | Head of Banking
+      label(for="headofhr").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='9', id='headofhr')
+        | Head of HR
+      label(for="headofstrat").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='10', id='headofstrat')
+        | Head of Strategy Innovation
+      label(for="headofmarketing").leadership-options
+        input.form-control(name='staffledpos', type='radio', value='11', id='headofmarketing')
+        | Head of Marketing
+    .form-group
+      label Title(s)
+      input.form-control(name='stafftitle', type='text', value='#{todo.stafftitle}')
+    .form-group
+      label Position
+      input.form-control(name='staffpos', type='text', value='#{todo.staffpos}')
+    .form-group
+      label Department
+      select.form-control(name='staffdep')
+        option(selected disabled) #{todo.staffdep}
+        option(value='Accounting') Department of Accounting
+        option(value='Banking') Department of Banking and Finance
+        option(value='Decision') Department of Decision Analytics and Risk
+        option(value='Marketing') Department of Digital and Data Driven Marketing
+        option(value='HR') Department of HR and Organisational behaviour
+        option(value='Entrepreneurship') Department of Strategy Innovation and Entrepreneurship
+      input.form-control(type="hidden" name="hiddenstaffdep" value='#{todo.staffdep}')
+    .form-group
+      label Text
+      input.form-control(name='stafftext', type='text', value='#{todo.stafftext}')
+    .form-group
+      label Email
+      div.input-group
+        span.input-group-addon#sizing-addon1 @
+        input.form-control(name='compemail', type='email', value='#{todo.compemail}', aria-describedby="sizing-addon1")
+    .form-group
+      label Phone
+      input.form-control(name='compphone', type='tel', value='#{todo.compphone}')
+    .form-group
+      label Room Number
+      input.form-control(name='comproom', type='text', value='#{todo.comproom}')
+    .form-group
+      label Profile Image
+      input.form-control(name='complogo', type='file')
+      input.form-control(type="hidden" name="hidden" value='#{todo.complogo}')
+    div.logo-comparison
+      div.row.justify-content-md-center
+        div.preview.col-sm-3
+          h4 Current Logo
+          if todo.complogo == 'noimage.jpg'
+            img.current-logo(src="/uploads/avatar.png")
+          else
+            img.current-logo(src="/uploads/logos/#{todo.complogo}")
+    div.btn-toolbar
+      input.btn.btn-primary(type='submit', value='Update')
+      a(href='/todos').btn.btn-default Back

@@ -1,0 +1,765 @@
+[
+    {
+        "compname": "Aarti Sood",
+        "staffpos": "Senior Teaching Fellow",
+        "compemail": "a.sood@soton.ac.uk",
+        "compphone": "(023) 8059 1866",
+        "comproom": "5031"
+    },
+    {
+        "compname": "Alaa Zalata",
+        "staffpos": "Lecturer in Accounting",
+        "compemail": "a.zalata@soton.ac.uk",
+        "compphone": "(023) 8059 3182",
+        "comproom": "4051"
+    },
+    {
+        "compname": "Alasadair Marshall",
+        "staffpos": "Lecturer in Management Science",
+        "compemail": "a.marshall@soton.ac.uk",
+        "compphone": "(023) 8059 8983",
+        "comproom": "4045"
+    },
+    {
+        "compname": "Alessia D'Amato",
+        "staffpos": "Lecturer in HRM\/OB",
+        "compemail": "a.d'amato@soton.ac.uk",
+        "compphone": "(023) 8059 9221",
+        "comproom": "4071"
+    },
+    {
+        "compname": "Andrew Farrell",
+        "staffpos": "Associate Professor in Marketing",
+        "compemail": "a.m.farrell@soton.ac.uk",
+        "compphone": "(023) 8059 1929",
+        "comproom": "3023"
+    },
+    {
+        "compname": "Andrew Goddard",
+        "staffpos": "Professor of Accounting",
+        "compemail": "arg2@soton.ac.uk",
+        "compphone": "(023) 8059 3067",
+        "comproom": "3031"
+    },
+    {
+        "compname": "Andrew Stainton",
+        "staffpos": "Principal Teaching Fellow in Management",
+        "compemail": "a.stainton@soton.ac.uk",
+        "compphone": "(023) 8059 3068",
+        "comproom": "4052"
+    },
+    {
+        "compname": "Andrew Urquhart",
+        "staffpos": "Lecturer in Finance",
+        "compemail": "a.j.urquhart@soton.ac.uk",
+        "compphone": "(023) 8059 9629",
+        "comproom": "5037"
+    },
+    {
+        "compname": "Anis Zras",
+        "staffpos": "Teaching Fellow in Accounting",
+        "compemail": "a.a.zras@soton.ac.uk",
+        "compphone": "(023) 8059 2547",
+        "comproom": "5035"
+    },
+    {
+        "compname": "Antonios Kalyvas",
+        "staffpos": "Lecturer in Finance",
+        "compemail": "n.a.kalyvas@soton.ac.uk",
+        "compphone": "(023) 8059 6979",
+        "comproom": "5045"
+    },
+    {
+        "compname": "Arben Kita",
+        "staffpos": "Lecturer in Finance",
+        "compemail": "a.kita@soton.ac.uk",
+        "compphone": "(023) 8059 5511",
+        "comproom": "4051"
+    },
+    {
+        "compname": "Athanasios Sakkas",
+        "staffpos": "Lecturer in Finance",
+        "compemail": "a.sakkas@soton.ac.uk",
+        "compphone": "(023) 8059 3551",
+        "comproom": "4043"
+    },
+    {
+        "compname": "Bai Xue",
+        "staffpos": "Lecturer in Financial Accounting",
+        "compemail": "b.xue@soton.ac.uk",
+        "compphone": "(023) 8059 1932",
+        "comproom": "3065"
+    },
+    {
+        "compname": "Bart Baesens",
+        "staffpos": "Lecturer in Management Science",
+        "compemail": "b.m.m.baesens@soton.ac.uk",
+        "compphone": "",
+        "comproom": ""
+    },
+    {
+        "compname": "Bernard Bempong",
+        "staffpos": "Teaching Fellow in OB\/HRM",
+        "compemail": "b.f.bempong@soton.ac.uk",
+        "compphone": "(023) 8059 1348",
+        "comproom": "5043"
+    },
+    {
+        "compname": "Cheng-Hao Chen",
+        "staffpos": "Lecturer in Marketing",
+        "compemail": "c.h.chen@soton.ac.uk",
+        "compphone": "(023) 8059 1946",
+        "comproom": "5037"
+    },
+    {
+        "compname": "Chidubem Ikeatuegwu",
+        "staffpos": "Teaching Fellow in Innovation & Entrepreneurship",
+        "compemail": "c.a.ikeatuegwu@soton.ac.uk",
+        "compphone": "(023) 8059 1818",
+        "comproom": "3061"
+    },
+    {
+        "compname": "Chris Chapman",
+        "staffpos": "Professor in Management Science",
+        "compemail": "c.b.chapman@soton.ac.uk",
+        "compphone": "(023) 8059 2525",
+        "comproom": "6049"
+    },
+    {
+        "compname": "Christophe Mues",
+        "staffpos": "Professor in Risk Management",
+        "compemail": "c.mues@soton.ac.uk",
+        "compphone": "(023) 8059 2561",
+        "comproom": "3007"
+    },
+    {
+        "compname": "Collins Ntim",
+        "staffpos": "Professor of Accounting",
+        "compemail": "c.g.ntim@soton.ac.uk",
+        "compphone": "(023) 8059 4285",
+        "comproom": "5012"
+    },
+    {
+        "compname": "Con Connell",
+        "staffpos": "Professor of Management",
+        "compemail": "n.a.connell@soton.ac.uk",
+        "compphone": "(023) 8059 2185",
+        "comproom": "6049"
+    },
+    {
+        "compname": "Cristian Bravo",
+        "staffpos": "Associate Professor in Business Analytics",
+        "compemail": "c.bravo@soton.ac.uk",
+        "compphone": "(023) 8059 9227",
+        "comproom": "3063"
+    },
+    {
+        "compname": "David Baxter",
+        "staffpos": "Senior Lecturer in Strategy & Innovation",
+        "compemail": "d.baxter@soton.ac.uk",
+        "compphone": "(023) 8059 7273",
+        "comproom": "3029"
+    },
+    {
+        "compname": "Denise Baden",
+        "staffpos": "Associate Professor in HRM\/OB",
+        "compemail": "d.a.baden@soton.ac.uk",
+        "compphone": "(023) 8059 8966",
+        "comproom": "4038"
+    },
+    {
+        "compname": "Di Luo",
+        "staffpos": "Lecturer in Finance",
+        "compemail": "d.luo@soton.ac.uk",
+        "compphone": "(023) 8059 1873",
+        "comproom": "4047"
+    },
+    {
+        "compname": "Dina Rasolofoarison",
+        "staffpos": "Lecturer in Marketing",
+        "compemail": "d.rasolofoarison@soton.ac.uk",
+        "compphone": "(023) 8059 1941",
+        "comproom": "3035"
+    },
+    {
+        "compname": "Dorrie Chao",
+        "staffpos": "Teaching Fellow in Innovation & Entrepreneurship",
+        "compemail": "y.chao@soton.ac.uk",
+        "compphone": "(023) 8059 2695",
+        "comproom": "3061"
+    },
+    {
+        "compname": "Fatimah Zainudin",
+        "staffpos": "Lecturer in Financial Accounting",
+        "compemail": "f.zainudin@soton.ac.uk",
+        "compphone": "(023) 8059 8973",
+        "comproom": "4019"
+    },
+    {
+        "compname": "Fengfang Lin",
+        "staffpos": "Lecturer in Marketing",
+        "compemail": "fenfang.lin@soton.ac.uk",
+        "compphone": "(023) 8059 1947",
+        "comproom": "4045"
+    },
+    {
+        "compname": "Frank McGroarty",
+        "staffpos": "Professor in Finance",
+        "compemail": "f.j.mcgroarty@soton.ac.uk",
+        "compphone": "(023) 8059 2540",
+        "comproom": "3033"
+    },
+    {
+        "compname": "Gavin Midgley",
+        "staffpos": "Teaching Fellow in Accounting",
+        "compemail": "g.midgley@soton.ac.uk",
+        "compphone": "(023) 8059 1928",
+        "comproom": "5029"
+    },
+    {
+        "compname": "Guy Vernon",
+        "staffpos": "Associate Professor in HRM",
+        "compemail": "g.vernon@soton.ac.uk",
+        "compphone": "",
+        "comproom": "6029"
+    },
+    {
+        "compname": "Hameed Chughtai",
+        "staffpos": "Lecturer in Knowledge and Information Systems Management",
+        "compemail": "h.chughtai@soton.ac.uk",
+        "compphone": "(023) 8059 8994",
+        "comproom": "5019"
+    },
+    {
+        "compname": "Heiko Frenzen",
+        "staffpos": "Lecturer in Marketing",
+        "compemail": "h.frenzen@soton.ac.uk",
+        "compphone": "(023) 8059 8669",
+        "comproom": "5041"
+    },
+    {
+        "compname": "Ian Cammack",
+        "staffpos": "Principal Teaching Fellow in Project Management ",
+        "compemail": "i.j.cammack@soton.ac.uk",
+        "compphone": "(023) 8059 8612",
+        "comproom": "6009"
+    },
+    {
+        "compname": "Ian Dawson",
+        "staffpos": "Associate Professor in Risk Management",
+        "compemail": "i.g.dawson@soton.ac.uk",
+        "compphone": "(023) 8059 8094",
+        "comproom": "4069"
+    },
+    {
+        "compname": "Ian Harwood",
+        "staffpos": "Senior Lecturer in Management ",
+        "compemail": "i.a.harwood@soton.ac.uk",
+        "compphone": "(023) 8059 7789",
+        "comproom": "3019"
+    },
+    {
+        "compname": "Ioannis Krasonikolakis",
+        "staffpos": "Lecturer in Retail Marketing",
+        "compemail": "i.krasonikolakis@soton.ac.uk",
+        "compphone": "(023) 8059 7443",
+        "comproom": "4044"
+    },
+    {
+        "compname": "Jaw-Kai (Alex) Wang",
+        "staffpos": "Teaching Fellow in Management Science",
+        "compemail": "j.k.wang@soton.ac.uk",
+        "compphone": "",
+        "comproom": ""
+    },
+    {
+        "compname": "Jeremy Cheah",
+        "staffpos": "Associate Professor in Finance",
+        "compemail": "jeremy.cheah@soton.ac.uk",
+        "compphone": "(023) 8059 1874",
+        "comproom": "4011"
+    },
+    {
+        "compname": "John Malagila",
+        "staffpos": "Lecturer in Accounting",
+        "compemail": "jm1u10@soton.ac.uk",
+        "compphone": "(023) 8059 5318",
+        "comproom": "4081"
+    },
+    {
+        "compname": "John Marti",
+        "staffpos": "Senior Lecturer in Strategy",
+        "compemail": "j.v.marti@soton.ac.uk",
+        "compphone": "(023) 8059 2563",
+        "comproom": "4087"
+    },
+    {
+        "compname": "Johnnie Johnson",
+        "staffpos": "Professor of Decision and Risk Analysis",
+        "compemail": "j.e.johnson@soton.ac.uk",
+        "compphone": "(023) 8059 2546",
+        "comproom": "3031"
+    },
+    {
+        "compname": "Jonathan Klein",
+        "staffpos": "Senior Lecturer in Management Science",
+        "compemail": "j.h.klein@soton.ac.uk",
+        "compphone": "(023) 8059 2554",
+        "comproom": "6025"
+    },
+    {
+        "compname": "Joyce Ko",
+        "staffpos": "Associate Professor in Marketing",
+        "compemail": "w.ko@soton.ac.uk",
+        "compphone": "",
+        "comproom": "3021"
+    },
+    {
+        "compname": "Julia Bennell",
+        "staffpos": "Professor of Management Science",
+        "compemail": "j.a.bennell@soton.ac.uk",
+        "compphone": "(023) 8059 5671",
+        "comproom": "4037"
+    },
+    {
+        "compname": "Julia Wolny",
+        "staffpos": "Principal Teaching Fellow in Marketing",
+        "compemail": "j.wolny@soton.ac.uk",
+        "compphone": "(023) 8059 4077",
+        "comproom": "3025"
+    },
+    {
+        "compname": "Kasia Bijak",
+        "staffpos": "Lecturer in Management Science",
+        "compemail": "k.bijak@soton.ac.uk",
+        "compphone": "(023) 8059 8096",
+        "comproom": "5039"
+    },
+    {
+        "compname": "Katia Pina",
+        "staffpos": "Lectutrer in Strategy and Innovation",
+        "compemail": "katia.oliveira-pina@soton.ac.uk",
+        "compphone": "(023) 8059 1974",
+        "comproom": "4040"
+    },
+    {
+        "compname": "Konstantinos Katsikopoulos",
+        "staffpos": "Associate Professor in Behav.Ops.Mgt",
+        "compemail": "k.katsikopoulos@soton.ac.uk",
+        "compphone": "(023) 8059 7716",
+        "comproom": "5017"
+    },
+    {
+        "compname": "Krish Vithana",
+        "staffpos": "Lecturer in Accounting",
+        "compemail": "v.k.vithana@soton.ac.uk",
+        "compphone": "(023) 8059 5755",
+        "comproom": "4053"
+    },
+    {
+        "compname": "Kristina Schmidt",
+        "staffpos": "Lecturer in Marketing",
+        "compemail": "k.schmidt@soton.ac.uk",
+        "compphone": "(023) 8059 5997",
+        "comproom": "3035"
+    },
+    {
+        "compname": "Laura Costanzo",
+        "staffpos": "Professor of Strategy, Innovation & Entrepreneurship",
+        "compemail": "laura.costanzo@soton.ac.uk",
+        "compphone": "(023) 8059 9341",
+        "comproom": "6035"
+    },
+    {
+        "compname": "Liu Pelin Demirel",
+        "staffpos": "Associate Professor in Strategy and Innovation ",
+        "compemail": "p.demirel@soton.ac.uk",
+        "compphone": "",
+        "comproom": "6045"
+    },
+    {
+        "compname": "Lubica Strakova",
+        "staffpos": "Senior Teaching Fellow in Management",
+        "compemail": "l.strakova@soton.ac.uk",
+        "compphone": "(023) 8059 2663",
+        "comproom": "5027"
+    },
+    {
+        "compname": "M Houssam Al-Kaddour",
+        "staffpos": "Lecturer in Accounting",
+        "compemail": "m.h.al-kaddour@soton.ac.uk",
+        "compphone": "(023) 8059 1396",
+        "comproom": "3065"
+    },
+    {
+        "compname": "Mahmoud Al-sayed",
+        "staffpos": "Lecturer in Accounting",
+        "compemail": "m.al-sayed@soton.ac.uk",
+        "compphone": "",
+        "comproom": "4075"
+    },
+    {
+        "compname": "Mario Brito",
+        "staffpos": "Lecturer in Risk Analysis and Risk Management",
+        "compemail": "m.p.brito@soton.ac.uk",
+        "compphone": "(023) 8059 7583",
+        "comproom": "5047"
+    },
+    {
+        "compname": "Marta Degl'Innocenti",
+        "staffpos": "Associate Professor in Finance",
+        "compemail": "m.deglinnocenti@soton.ac.uk",
+        "compphone": "(023) 8059 8093",
+        "comproom": "4079"
+    },
+    {
+        "compname": "Martin Broad",
+        "staffpos": "Professor in Accounting",
+        "compemail": "m.j.broad@soton.ac.uk",
+        "compphone": "(023) 8059 7791",
+        "comproom": ""
+    },
+    {
+        "compname": "Matti Jaakkola",
+        "staffpos": "Lecturer in Marketing Strategy",
+        "compemail": "m.j.jaakkola@soton.ac.uk",
+        "compphone": "(023) 8059 1833",
+        "comproom": "5041"
+    },
+    {
+        "compname": "Maxwell Chipulu",
+        "staffpos": "Lecturer in Management Science",
+        "compemail": "m.chipulu@soton.ac.uk",
+        "compphone": "(023) 8059 2559",
+        "comproom": "4044"
+    },
+    {
+        "compname": "Meko So",
+        "staffpos": "Associate Professor in Marketing",
+        "compemail": "m.so@soton.ac.uk",
+        "compphone": "(023) 8059 8964",
+        "comproom": "4021"
+    },
+    {
+        "compname": "Melanie Ashleigh",
+        "staffpos": "Associate Professor in OB\/HRM",
+        "compemail": "mja@soton.ac.uk",
+        "compphone": "(023) 8059 4738",
+        "comproom": "4014"
+    },
+    {
+        "compname": "Michael Crossman",
+        "staffpos": "Principal Teaching Fellow in Marketing  ",
+        "compemail": "m.d.crossman@soton.ac.uk",
+        "compphone": "(023) 8059 3557",
+        "comproom": "6049"
+    },
+    {
+        "compname": "Michail Veliziotis",
+        "staffpos": "Lecturer in HRM\/OB",
+        "compemail": "m.veliziotis@soton.ac.uk",
+        "compphone": "(023) 8059 1940",
+        "comproom": "5025"
+    },
+    {
+        "compname": "Michelle Lowe",
+        "staffpos": "Professor in Strategy and Innovation",
+        "compemail": "m.lowe@soton.ac.uk",
+        "compphone": "(023) 8059 5443",
+        "comproom": "4073"
+    },
+    {
+        "compname": "Mina Beigi",
+        "staffpos": "Lecturer in HRM\/OB",
+        "compemail": "m.beigi@soton.ac.uk",
+        "compphone": "(023) 8059 3421",
+        "comproom": "4019"
+    },
+    {
+        "compname": "Mine Karatas-Ozkan",
+        "staffpos": "Professor in Strategy and Entrepreneurship",
+        "compemail": "m.karatas-ozkan@soton.ac.uk",
+        "compphone": "(023) 8059 8971",
+        "comproom": "6037"
+    },
+    {
+        "compname": "Ming-Chien (Vanessa) Sung",
+        "staffpos": "Professor of Risk and Decision Sciences",
+        "compemail": "m.sung@soton.ac.uk",
+        "compphone": "(023) 8059 8974",
+        "comproom": ""
+    },
+    {
+        "compname": "Monica Mihalache",
+        "staffpos": "Teaching Fellow in Marketing",
+        "compemail": "monica.mihalache@soton.ac.uk",
+        "compphone": "(023) 8059 1872",
+        "comproom": "5031"
+    },
+    {
+        "compname": "Richard Cartwright",
+        "staffpos": "Principal Teaching Fellow in Accounting",
+        "compemail": "r.j.cartwright@soton.ac.uk",
+        "compphone": "(023) 8059 8444",
+        "comproom": ""
+    },
+    {
+        "compname": "Anita Krishnan",
+        "staffpos": "Senior Teaching Fellow in Accounting",
+        "compemail": "a.j.krishnan@soton.ac.uk",
+        "compphone": "",
+        "comproom": "3011"
+    },
+    {
+        "compname": "Nongnuch Tantisantiwong",
+        "staffpos": "Lecturer in Finance",
+        "compemail": "n.tantisantiwong@soton.ac.uk",
+        "compphone": "(023) 8059 3415",
+        "comproom": "3067"
+    },
+    {
+        "compname": "Nuno Da Camara",
+        "staffpos": "Principal Teaching Fellow in HRM\/OB",
+        "compemail": "nuno.dacamara@soton.ac.uk",
+        "compphone": "(023) 8059 3093",
+        "comproom": "5011"
+    },
+    {
+        "compname": "Oliver Marnet",
+        "staffpos": "Associate Professor in Accounting",
+        "compemail": "o.marnet@soton.ac.uk",
+        "compphone": "(023) 8059 3314",
+        "comproom": "6013"
+    },
+    {
+        "compname": "Panos Papakyriakou",
+        "staffpos": "Lecturer in Finance",
+        "compemail": "p.papakyriakou@soton.ac.uk",
+        "compphone": "(023) 8059 2476",
+        "comproom": "3063"
+    },
+    {
+        "compname": "Patrick Beullens",
+        "staffpos": "Senior Lecturer in OR\/MS",
+        "compemail": "p.beullens@soton.ac.uk",
+        "compphone": "(023) 8059 8884",
+        "comproom": "4054"
+    },
+    {
+        "compname": "Pawan Tamvada",
+        "staffpos": "Associate Professor in Strategy and Innovation ",
+        "compemail": "jp.tamvada@soton.ac.uk",
+        "compphone": "",
+        "comproom": ""
+    },
+    {
+        "compname": "Peng Wang",
+        "staffpos": "Lecturer in Financial Accounting",
+        "compemail": "peng.wang@soton.ac.uk",
+        "compphone": "(023) 8059 8965",
+        "comproom": "4053"
+    },
+    {
+        "compname": "Pingli Li",
+        "staffpos": "Associate Professor in Accounting",
+        "compemail": "p.li@soton.ac.uk",
+        "compphone": "(023) 8059 1389",
+        "comproom": "3071"
+    },
+    {
+        "compname": "Qingjing (Maggie) Zhang",
+        "staffpos": "Lecturer in Accounting and Finance",
+        "compemail": "q.zhang@soton.ac.uk",
+        "compphone": "",
+        "comproom": "4043"
+    },
+    {
+        "compname": "Ramesh Vahidi",
+        "staffpos": "Teaching Fellow in Management Science",
+        "compemail": "r.vahidi@soton.ac.uk",
+        "compphone": "(023) 8059 7614",
+        "comproom": "5039"
+    },
+    {
+        "compname": "Richard Werner",
+        "staffpos": "Professor of International Banking",
+        "compemail": "r.werner@soton.ac.uk",
+        "compphone": "(023) 8059 2549",
+        "comproom": "4075"
+    },
+    {
+        "compname": "Roy Edwards",
+        "staffpos": "Lecturer in Accounting",
+        "compemail": "r.a.edwards@soton.ac.uk",
+        "compphone": "",
+        "comproom": "4049"
+    },
+    {
+        "compname": "Sally Brailsford",
+        "staffpos": "Professor of Management Science",
+        "compemail": "s.c.brailsford@soton.ac.uk",
+        "compphone": "(023) 8059 3567",
+        "comproom": "6025"
+    },
+    {
+        "compname": "Shahnaz Ibrahim",
+        "staffpos": "Senior Teaching Fellow in Strategy and Entrepreneurship",
+        "compemail": "si1g10@soton.ac.uk",
+        "compphone": "(023) 8059 7256",
+        "comproom": "4040"
+    },
+    {
+        "compname": "Sha'ven Widin",
+        "staffpos": "Teaching Fellow in Accounting",
+        "compemail": "w.b.sha'ven@soton.ac.uk",
+        "compphone": "",
+        "comproom": ""
+    },
+    {
+        "compname": "Si Zhou",
+        "staffpos": "Lecturer in Finance",
+        "compemail": "s.zhou@soton.ac.uk",
+        "compphone": "(023) 8059 1379",
+        "comproom": "3069"
+    },
+    {
+        "compname": "Simon Wolfe",
+        "staffpos": "Professor of Banking and Finance",
+        "compemail": "ssjw@soton.ac.uk",
+        "compphone": "(023) 8059 3118",
+        "comproom": "6011"
+    },
+    {
+        "compname": "Steffen Bayer",
+        "staffpos": "Lecturer in Business Analytics",
+        "compemail": "s.c.bayer@soton.ac.uk",
+        "compphone": "(023) 8059 1871",
+        "comproom": "4047"
+    },
+    {
+        "compname": "Steve Brown",
+        "staffpos": "Professor in Operations Management",
+        "compemail": "steve.brown@soton.ac.uk",
+        "compphone": "(023) 8059 3024",
+        "comproom": "6017"
+    },
+    {
+        "compname": "Stratos Ramoglou",
+        "staffpos": "Associate Professor in Strategy and Innovation ",
+        "compemail": "s.ramoglou@soton.ac.uk",
+        "compphone": "(023) 8059 9411",
+        "comproom": "6046"
+    },
+    {
+        "compname": "Surenanath (Rakesh) Jory",
+        "staffpos": "Associate Professor in Finance",
+        "compemail": "s.r.jory@soton.ac.uk",
+        "compphone": "(023) 8059 5923",
+        "comproom": ""
+    },
+    {
+        "compname": "Tahir Nisar",
+        "staffpos": "Reader in HRM\/OB",
+        "compemail": "t.m.nisar@soton.ac.uk",
+        "compphone": "(023) 8059 3427",
+        "comproom": "3027"
+    },
+    {
+        "compname": "Tapas Mishra",
+        "staffpos": "Senior Lecturer in Finance",
+        "compemail": "t.k.mishra@soton.ac.uk",
+        "compphone": "(023) 8059 1377",
+        "comproom": "6039"
+    },
+    {
+        "compname": "Taposh Roy",
+        "staffpos": "Teaching Fellow in OB\/HRM",
+        "compemail": "t.k.roy@soton.ac.uk",
+        "compphone": "(023) 8059 8911",
+        "comproom": "5043"
+    },
+    {
+        "compname": "Taufiq Choudhry",
+        "staffpos": "Professor of Finance",
+        "compemail": "t.choudhry@soton.ac.uk  ",
+        "compphone": "(023) 8059 9286",
+        "comproom": "4015"
+    },
+    {
+        "compname": "Tiejun Ma",
+        "staffpos": "Associate Professor in Management Science",
+        "compemail": "tiejun.ma@soton.ac.uk",
+        "compphone": "(023) 8059 8976",
+        "comproom": "4017"
+    },
+    {
+        "compname": "Tolga Bektas",
+        "staffpos": "Professor of Logistics Management",
+        "compemail": "t.bektas@soton.ac.uk",
+        "compphone": "(023) 8059 8969",
+        "comproom": "6015"
+    },
+    {
+        "compname": "Tom Chapman",
+        "staffpos": "PG Programme Director",
+        "compemail": "t.r.chapman@soton.ac.uk",
+        "compphone": "",
+        "comproom": "4007"
+    },
+    {
+        "compname": "Toni Martinez-Sykora",
+        "staffpos": "Lecturer in Business Analytics",
+        "compemail": "a.martinez-sykora@soton.ac.uk",
+        "compphone": "",
+        "comproom": "5027"
+    },
+    {
+        "compname": "Vadim Grinevich",
+        "staffpos": "Associate Professor in Strategy and Innovation ",
+        "compemail": "v.grinevich@soton.ac.uk",
+        "compphone": "(023) 8059 4051",
+        "comproom": "6047"
+    },
+    {
+        "compname": "Venancio Tauringana",
+        "staffpos": "Professor in Accounting",
+        "compemail": "v.tauringana@soton.ac.uk",
+        "compphone": "(023) 8059 1843",
+        "comproom": ""
+    },
+    {
+        "compname": "Weisha Wang",
+        "staffpos": "Lecturer in Marketing",
+        "compemail": "weisha.wang@soton.ac.uk",
+        "compphone": "(023) 8059 6966",
+        "comproom": "5019"
+    },
+    {
+        "compname": "Yehuda Baruch",
+        "staffpos": "Professor of Management",
+        "compemail": "y.baruch@soton.ac.uk",
+        "compphone": "(023) 8059 2064",
+        "comproom": "4013"
+    },
+    {
+        "compname": "Yu Gong",
+        "staffpos": "Lecturer in Operations Management",
+        "compemail": "y.gong@soton.ac.uk",
+        "compphone": "(023) 8059 1834",
+        "comproom": "5047"
+    },
+    {
+        "compname": "Yue Wu",
+        "staffpos": "Reader in Management Science",
+        "compemail": "y.wu@soton.ac.uk",
+        "compphone": "(023) 8059 8711",
+        "comproom": "4009"
+    },
+    {
+        "compname": "Zhung (Jason) Zhang",
+        "staffpos": "Teaching Fellow in Finance",
+        "compemail": "zhuang.zhang@soton.ac.uk",
+        "compphone": "",
+        "comproom": "4081"
+    }
+]

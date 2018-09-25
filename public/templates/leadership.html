@@ -1,0 +1,64 @@
+<div class="grow-appear">
+  <div class="dep-middle-row">
+    <div class="row staff-first">
+      <div class="tile-staff col grow-appear" ng-repeat="company in $ctrl.companies | limitTo : 1 : 0">
+        <a ui-sref="company({ companyId: company._id })">
+          <p class="lead-pos">{{company.staffpos}}</p>
+          <div class="lead-logo-container">
+            <span class="" ng-if="company.complogo == 'noimage.jpg'">
+              <img src="/uploads/avatar.png">
+            </span>
+            <span class="" ng-if="company.complogo !== 'noimage.jpg'">
+              <img src="/uploads/logos/{{company.complogo}}">
+            </span>
+          </div>
+          <p>{{company.compname}}</p>
+        </a>
+      </div>
+    </div>
+    <div class="row staff-second">
+      <div class="tile-staff col grow-appear" ng-repeat="company in $ctrl.companies | limitTo : 4 : 1">
+        <a ui-sref="company({ companyId: company._id })">
+          <p class="lead-pos">{{company.staffpos}}</p>
+          <div class="lead-logo-container">
+            <span class="" ng-if="company.complogo == 'noimage.jpg'">
+              <img src="/uploads/avatar.png">
+            </span>
+            <span class="" ng-if="company.complogo !== 'noimage.jpg'">
+              <img src="/uploads/logos/{{company.complogo}}">
+            </span>
+          </div>
+          <p>{{company.compname}}</p>
+        </a>
+      </div>
+    </div>
+    <div class="row staff-second">
+      <div class="tile-staff col grow-appear" ng-repeat="company in $ctrl.companies | limitTo : 7 : 5">
+        <a ui-sref="company({ companyId: company._id })">
+          <p class="lead-pos">{{company.staffpos}}</p>
+          <div class="lead-logo-container">
+            <span class="" ng-if="company.complogo == 'noimage.jpg'">
+              <img src="/uploads/avatar.png">
+            </span>
+            <span class="" ng-if="company.complogo !== 'noimage.jpg'">
+              <img src="/uploads/logos/{{company.complogo}}">
+            </span>
+          </div>
+          <p>{{company.compname}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row footer-menu">
+  <div class="col s1 center">
+    <a ui-sref="home"><i class="fa fa-home fa-5x" aria-hidden="true" id="home"></i></a>
+    <div class="menu-btn thin" >HOME</div>
+  </div>
+  <div class="col s10"></div>
+  <div class="col s1 center">
+    <a ui-sref="home"><i class="fa fa-undo-alt fa-5x" aria-hidden="true" id="back"></i></a>
+    <div class="menu-btn thin" >BACK</div>
+  </div>
+</div>
+</div>

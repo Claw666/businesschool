@@ -1,0 +1,42 @@
+<div class="grow-appear">
+  <div class="dep-middle-row">
+    <div class="row">
+      <h1 class="center thin">STAFF DIRECTORY</h1>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="row ajx-ld-content" id="ajaxContainer">
+      <div class="tile col grow-appear" ng-repeat="company in $ctrl.companies">
+        <a ui-sref="company({ companyId: company._id })">
+          <div class="comp-logo-container">
+            <span class="" ng-if="company.complogo == 'noimage.jpg'">
+              <img src="/uploads/avatar.png">
+            </span>
+            <span class="" ng-if="company.complogo !== 'noimage.jpg'">
+              <img src="/uploads/logos/{{company.complogo}}">
+            </span>
+          </div>
+          <p>{{company.compname}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row footer-menu">
+  <div class="col s1 center">
+    <a ui-sref="home"><i class="fa fa-home fa-5x" aria-hidden="true" id="home"></i></a>
+    <div class="menu-btn thin" >HOME</div>
+  </div>
+  <div class="col s10 alphabet">
+    <div class="sort-cont">
+      <a ui-sref="sort-group-A" class="sort-groups">A</a><a ui-sref="sort-group-B" class="sort-groups">B</a><a ui-sref="sort-group-C" class="sort-groups">C</a><a ui-sref="sort-group-D" class="sort-groups">D</a><a ui-sref="sort-group-E" class="sort-groups">E</a><a ui-sref="sort-group-F" class="sort-groups">F</a><a ui-sref="sort-group-G" class="sort-groups">G</a><a ui-sref="sort-group-H" class="sort-groups">H</a><a ui-sref="sort-group-I" class="sort-groups">I</a><a ui-sref="sort-group-J" class="sort-groups">J</a><a ui-sref="sort-group-K" class="sort-groups">K</a><a ui-sref="sort-group-L" class="sort-groups">L</a><a ui-sref="sort-group-M" class="sort-groups">M</a>
+    </div>
+    <div class="sort-cont">
+      <a ui-sref="sort-group-N" class="sort-groups">N</a><a ui-sref="sort-group-O" class="sort-groups">O</a><a ui-sref="sort-group-P" class="sort-groups">P</a><a ui-sref="sort-group-Q" class="sort-groups">Q</a><a ui-sref="sort-group-R" class="sort-groups">R</a><a ui-sref="sort-group-S" class="sort-groups">S</a><a ui-sref="sort-group-T" class="sort-groups">T</a><a ui-sref="sort-group-U" class="sort-groups">U</a><a ui-sref="sort-group-V" class="sort-groups">V</a><a ui-sref="sort-group-W" class="sort-groups">W</a><a ui-sref="sort-group-X" class="sort-groups">X</a><a ui-sref="sort-group-Y" class="sort-groups">Y</a><a ui-sref="sort-group-Z" class="sort-groups">Z</a>
+    </div>
+  </div>
+  <div class="col s1 center">
+    <a ui-sref="home"><i class="fa fa-undo-alt fa-5x" aria-hidden="true" id="back"></i></a>
+    <div class="menu-btn thin" >BACK</div>
+  </div>
+</div>
+</div>
