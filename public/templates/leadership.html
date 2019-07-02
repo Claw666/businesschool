@@ -3,7 +3,7 @@
     <div class="row staff-first">
       <div class="tile-staff col grow-appear" ng-repeat="company in $ctrl.companies | limitTo : 1 : 0">
         <a ui-sref="company({ companyId: company._id })">
-          <p class="lead-pos">{{company.staffpos}}</p>
+          <p class="lead-pos lead-pos-top">{{company.staffpos}}</p>
           <div class="lead-logo-container">
             <span class="" ng-if="company.complogo == 'noimage.jpg'">
               <img src="/uploads/avatar.png">
@@ -12,14 +12,14 @@
               <img src="/uploads/logos/{{company.complogo}}">
             </span>
           </div>
-          <p>{{company.compname}}</p>
+          <p>{{company.compname}} {{company.stafflastname}}</p>
         </a>
       </div>
     </div>
     <div class="row staff-second">
       <div class="tile-staff col grow-appear" ng-repeat="company in $ctrl.companies | limitTo : 4 : 1">
         <a ui-sref="company({ companyId: company._id })">
-          <p class="lead-pos">{{company.staffpos}}</p>
+          <p class="lead-pos lead-pos-middle">{{company.staffpos}}</p>
           <div class="lead-logo-container">
             <span class="" ng-if="company.complogo == 'noimage.jpg'">
               <img src="/uploads/avatar.png">
@@ -28,14 +28,14 @@
               <img src="/uploads/logos/{{company.complogo}}">
             </span>
           </div>
-          <p>{{company.compname}}</p>
+          <p>{{company.compname}} {{company.stafflastname}}</p>
         </a>
       </div>
     </div>
-    <div class="row staff-second">
+    <div class="row staff-three">
       <div class="tile-staff col grow-appear" ng-repeat="company in $ctrl.companies | limitTo : 7 : 5">
         <a ui-sref="company({ companyId: company._id })">
-          <p class="lead-pos">{{company.staffpos}}</p>
+          <p class="lead-pos lead-pos-bttm">{{company.staffpos}}</p>
           <div class="lead-logo-container">
             <span class="" ng-if="company.complogo == 'noimage.jpg'">
               <img src="/uploads/avatar.png">
@@ -44,7 +44,7 @@
               <img src="/uploads/logos/{{company.complogo}}">
             </span>
           </div>
-          <p>{{company.compname}}</p>
+          <p>{{company.compname}} {{company.stafflastname}}</p>
         </a>
       </div>
     </div>

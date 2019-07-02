@@ -3,8 +3,11 @@ extends layout
 block content
   form(method='post', action='/todos/create',enctype='multipart/form-data')
     .form-group
-      label Name
-      input.form-control(name='compname', type='text', placeholder='Enter Name')
+      label First Name
+      input.form-control(name='compname', type='text', placeholder='Enter the First Name')
+    .form-group
+      label Last Name
+      input.form-control(name='stafflastname', type='text', placeholder='Enter the Last Name')
     label Leadership Position (optional)
     .form-group
       label(for="headofnothing").leadership-options

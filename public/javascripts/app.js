@@ -2236,7 +2236,7 @@ app.config(function($stateProvider){
       component: 'companies',
       resolve: {
         companies: function(CompaniesService) {
-          return CompaniesService.getCompaniesA();
+          return CompaniesService.getAllCompanies();
         }
       }
     },
@@ -2244,7 +2244,12 @@ app.config(function($stateProvider){
     { 
       name: 'home', 
       url: '/', 
-      component: 'home'
+      component: 'home',
+      resolve: {
+        home: function(HomeService) {
+          return HomeService.getHome();
+        }
+      }
     },
     
     { 
@@ -2284,7 +2289,7 @@ app.config(function($stateProvider){
       component: 'accounting',
       resolve: {
         companies: function(CompaniesService) {
-          return CompaniesService.getDepAccountingA();
+          return CompaniesService.getDepAccounting();
         }
       }
     },
@@ -2295,7 +2300,7 @@ app.config(function($stateProvider){
       component: 'banking',
       resolve: {
         companies: function(CompaniesService) {
-          return CompaniesService.getDepBankingA();
+          return CompaniesService.getDepBanking();
         }
       }
     },
@@ -2306,7 +2311,7 @@ app.config(function($stateProvider){
       component: 'marketing',
       resolve: {
         companies: function(CompaniesService) {
-          return CompaniesService.getDepMarketingA();
+          return CompaniesService.getDepMarketing();
         }
       }
     },
@@ -2317,7 +2322,7 @@ app.config(function($stateProvider){
       component: 'decision',
       resolve: {
         companies: function(CompaniesService) {
-          return CompaniesService.getDepDecisionA();
+          return CompaniesService.getDepDecision();
         }
       }
     },
@@ -2328,7 +2333,7 @@ app.config(function($stateProvider){
       component: 'human',
       resolve: {
         companies: function(CompaniesService) {
-          return CompaniesService.getDepHrA();
+          return CompaniesService.getDepHr();
         }
       }
     },
@@ -2339,7 +2344,7 @@ app.config(function($stateProvider){
       component: 'entrepreneurship',
       resolve: {
         companies: function(CompaniesService) {
-          return CompaniesService.getDepEntrA();
+          return CompaniesService.getDepEntr();
         }
       }
     }

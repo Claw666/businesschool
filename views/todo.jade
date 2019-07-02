@@ -3,12 +3,16 @@ extends layout
 block content
   form(method='post', action='/todos/edit/#{todo._id}' ,enctype='multipart/form-data')
     .form-group
-      label Name
+      label First Name
       input.form-control(name='compname', type='text', value='#{todo.compname}')
+    .form-group
+      label Last Name
+      input.form-control(name='stafflastname', type='text', value='#{todo.stafflastname}')
     label Leadership Position
     .form-group
+      
       label(for="headofnothing").leadership-options
-        input.form-control(name='staffledpos', type='radio', value='0', id='headonothing' checked)
+        input.form-control(name='staffledpos', type='radio', value='0', id='headofnothing')
         | Nothing
       label(for="headofschool").leadership-options
         input.form-control(name='staffledpos', type='radio', value='1', id='headofschool')
@@ -43,6 +47,7 @@ block content
       label(for="headofmarketing").leadership-options
         input.form-control(name='staffledpos', type='radio', value='11', id='headofmarketing')
         | Head of Marketing
+      input.form-control(type="hidden" name="hiddenstaffled" value='#{todo.staffledpos}')
     .form-group
       label Title(s)
       input.form-control(name='stafftitle', type='text', value='#{todo.stafftitle}')

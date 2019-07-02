@@ -1,16 +1,15 @@
 html {
   overflow: scroll;
   overflow-x: hidden;
+  overflow-y: hidden;
   background: #005C84;
   display: flex;
   height: 100%;
   flex-direction: column;
+
 }
 
-::-webkit-scrollbar {
-  width: 0px;  /* remove scrollbar space *
-  background: transparent;  /* optional: just make scrollbar invisible */
-}
+
 
 
 
@@ -65,7 +64,7 @@ body {
 }
 
 .tile {
-  margin: 10px -30px;
+  margin: 15px -43px;
 }
 
 .staff-first, .staff-second, .staff-three{
@@ -154,8 +153,8 @@ body {
 }
 
 .comp-logo-container {
-  height: 110px;
-  width: 110px;
+  height: 100px;
+  width: 100px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -166,7 +165,7 @@ body {
 }
 
 .comp-logo-container img {
-  max-height: 150px;
+  max-height: 130px;
 }
 
 .lead-logo-container {
@@ -409,6 +408,7 @@ body {
 .dep-info h3 {
   font-size: 20px;
   width: 90%;
+  min-height: 44px;
 }
 
 .dep-info p {
@@ -426,6 +426,14 @@ body {
   min-height: 500px;
 }
 
+.ajx-ld-content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 430px;
+  margin-bottom: 35px !important;
+}
+
+
 .staff-name {
   margin-top: 0 !important;
 }
@@ -438,7 +446,8 @@ body {
   line-height: 25px;
   font-size: 18px;
   max-height: 300px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .staff-map {
   text-align: center;
@@ -466,28 +475,24 @@ body {
 
 .level-3 {
   position: relative;
-  left: 20px;
-  display: flex;
-  top: 400px;
-}
-
-.level-4 {
-  position: relative;
-  left: 20px;
   display: flex;
   top: 300px;
 }
 
+.level-4 {
+  position: relative;
+  display: flex;
+  top: 200px;
+}
+
 .level-5 {
   position: relative;
-  left: 20px;
   display: flex;
-  top: 190px;
+  top: 100px;
 }
 
 .level-6 {
   position: relative;
-  left: 20px;
   display: flex;
   top: 80px;
 }
@@ -498,13 +503,37 @@ body {
 }
 
 .lead-pos{
-  height: 38px;
   font-size: 1vw !important;
-  width: 270px;
 }
+
+.lead-pos-top{
+  height: 16px;
+}
+
+.lead-pos-middle {
+  height: 32px;
+  width: 220px;
+}
+
+.lead-pos-bttm {
+  height: 12px;
+}
+
+
 
 .tile-staff {
   margin-top: 0 !important;
   margin-bottom: 0!important;
   text-align: center;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.tile-staff p {
+  margin-top: 10px;
+}
+
+.staff-three .tile-staff p {
+  margin-bottom: 20px;
 }

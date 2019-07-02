@@ -1,7 +1,15 @@
 extends layout
 
 block content
-  h1 Members Area
-  p Welcome to the members area!
-  div
-    img.col-sm-2.img-responsive(src = "/uploads/profiles/#{user.profileimage}")
+  h1 Front page changes
+  p User can change the title and background images here.
+  form(method='post', action='/edit/5bc574a0a65b55394f3bc890' ,enctype='form-data')
+    .form-group
+      label First Row
+      input.form-control(name='homemaintitle', type='text', value='')
+    .form-group
+      label Second Row
+      input.form-control(name='homesecondtitle', type='text', value='')
+    div.btn-toolbar
+      input.btn.btn-primary(type='submit', value='Update')
+

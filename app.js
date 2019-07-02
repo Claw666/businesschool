@@ -24,9 +24,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var todo = require('./routes/todo');
-
 var sp2vr = require('./routes/sp2vr');
-
 
 // Init app
 var app = express();

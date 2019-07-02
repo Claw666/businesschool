@@ -16,25 +16,25 @@
       </div>
     </div>
     <div class="col s4 staff-main-text">
-      <h2 class="staff-name">{{$ctrl.company.compname}} <!--<span class="staff-title">{{$ctrl.company.stafftitle}}</span>--></h2>
+      <h2 class="staff-name">{{$ctrl.company.compname}} {{$ctrl.company.stafflastname}} <!--<span class="staff-title">{{$ctrl.company.stafftitle}}</span>--></h2>
       <h4 class="staff-position">{{$ctrl.company.staffpos}}</h4>
       <p class="staff-content">{{$ctrl.company.stafftext}}</p>
     </div>
     <div class="col s5 staff-map">
       <div ng-if="$ctrl.company.comproom.includes(30)">
-        <p class="level-3">Level 2</p>
+        <p class="level-3">Level 3</p>
         <div svg-map-level-three></div>
       </div>
       <div ng-if="$ctrl.company.comproom.includes(40)">
-        <p class="level-4">Level 3</p>
+        <p class="level-4">Level 4</p>
         <div svg-map-level-four></div>
       </div>
       <div ng-if="$ctrl.company.comproom.includes(50)">
-        <p class="level-5">Level 4</p>
+        <p class="level-5">Level 5</p>
         <div svg-map-level-five></div>
       </div>
       <div ng-if="$ctrl.company.comproom.includes(60)">
-        <p class="level-6">Level 5</p>
+        <p class="level-6">Level 6</p>
         <div svg-map-level-six></div>
       </div>
     </div>

@@ -6,6 +6,15 @@ angular.module('angularApp').service('CompaniesService', function($http) {
       });
 
     },
+
+    getHome: function() {
+      return $http.get('/sp2vr/home-page', { cache: true }).then(function(resp) {
+        return resp.data;
+      });
+
+    },
+
+    
     getCompaniesA: function() {
       return $http.get('/sp2vr/sort-group-A', { cache: true }).then(function(resp) {
         return resp.data;
@@ -182,7 +191,47 @@ angular.module('angularApp').service('CompaniesService', function($http) {
 
 
 
+    getDepAccounting: function() {
+      return $http.get('/sp2vr/depaccounting', { cache: true }).then(function(resp) {
+        return resp.data;
+      });
+    
+    },
 
+    getDepBanking: function() {
+      return $http.get('/sp2vr/depbanking', { cache: true }).then(function(resp) {
+        return resp.data;
+      });
+    
+    },
+
+    getDepMarketing: function() {
+      return $http.get('/sp2vr/depmarketing', { cache: true }).then(function(resp) {
+        return resp.data;
+      });
+    
+    },
+
+    getDepDecision: function() {
+      return $http.get('/sp2vr/depdecision', { cache: true }).then(function(resp) {
+        return resp.data;
+      });
+    
+    },
+
+    getDepHr: function() {
+      return $http.get('/sp2vr/dephr', { cache: true }).then(function(resp) {
+        return resp.data;
+      });
+    
+    },
+
+    getDepEntr: function() {
+      return $http.get('/sp2vr/depentr', { cache: true }).then(function(resp) {
+        return resp.data;
+      });
+    
+    },
 
 
     getDepAccountingA: function() {

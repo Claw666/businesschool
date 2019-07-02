@@ -13,7 +13,7 @@ var storageLogo = multer.diskStorage({
     cb(null, './public/uploads/logos')
   },
   filename: function(req, file, cb){
-    cb(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname));
+    cb(null, new Date().toISOString().replace(/[-T:\.Z]/g, "") + file.originalname);
 }
 });
 var upload = multer({storage: storageLogo});
@@ -43,6 +43,7 @@ router.get('/:id', ensureAuthenticated, function(req, res, next) {
 
 router.post('/create', upload.single('complogo'), function(req, res, next) {
     var todoContent = req.body.compname;
+    var todoLastName = req.body.stafflastname;
     var todoLead = req.body.staffledpos;
     var todoTitle = req.body.stafftitle;
     var todoPos = req.body.staffpos;
@@ -61,7 +62,7 @@ router.post('/create', upload.single('complogo'), function(req, res, next) {
         var complogo = 'noimage.jpg';
     }
     // create todo
-    Todo.create({ compname: todoContent, staffledpos:todoLead, stafftitle: todoTitle, staffpos: todoPos, staffdep: todoDep, stafftext: todoText, compemail: todoEmail, compphone: todoPhone, comproom: todoRoom, complogo: complogo}, function(err, todo){
+    Todo.create({ compname: todoContent, stafflastname: todoLastName, staffledpos:todoLead, stafftitle: todoTitle, staffpos: todoPos, staffdep: todoDep, stafftext: todoText, compemail: todoEmail, compphone: todoPhone, comproom: todoRoom, complogo: complogo}, function(err, todo){
         if(err) res.render('error', { error: 'Error creating your todo :('})
         // reload collection
     req.flash('success', 'You added a new company to the wayfinding!');
@@ -74,14 +75,14 @@ router.post('/destroy/:id' ,function(req, res, next) {
 
     Todo.findByIdAndRemove(id, function(err, todo){
         if(err) res.render('error', { error: 'Error deleting todo'});
-        req.flash('error', 'You deleted a company from the wayfinding!');
+        req.flash('error', 'You deleted a staff member from the wayfinding!');
         res.redirect('/todos');
     });
 });
 
 router.post('/edit/:id',  upload.single('complogo'), function(req, res, next) {
     var newcompname = req.body.compname;
-    var newstafflead = req.body.staffledpos;
+    var newlastname = req.body.stafflastname;
     var newstafftile = req.body.stafftitle;
     var newstaffpos = req.body.staffpos;
     var newstafftext = req.body.stafftext;
@@ -91,7 +92,13 @@ router.post('/edit/:id',  upload.single('complogo'), function(req, res, next) {
     var hidden = req.body.hidden;
     var newstaffdep = req.body.staffdep;
     var hiddenstaffdep = req.body.hiddenstaffdep;
+    var hiddenstaffled = req.body.hiddenstaffled;
     var complogo = "";
+    if(req.body.staffledpos == undefined) {
+        var newstafflead = hiddenstaffled;
+    } else {
+        var newstafflead = req.body.staffledpos;
+    }
     if(req.body.staffdep == undefined){
         var newstaffdep = hiddenstaffdep;
     } else {
@@ -113,8 +120,8 @@ router.post('/edit/:id',  upload.single('complogo'), function(req, res, next) {
            if (err) throw err;
        });
     } 
-    Todo.findOneAndUpdate({ _id: req.params.id }, {compname: newcompname, staffledpos:newstafflead, stafftitle: newstafftile, staffpos: newstaffpos, staffdep: newstaffdep, stafftext: newstafftext, compemail: newcompemail, compphone: newcompphone, comproom: newcomproom, complogo: complogo}, function(err, todo){
-        req.flash('success', 'You modified the company!');
+    Todo.findOneAndUpdate({ _id: req.params.id }, {compname: newcompname, stafflastname: newlastname, staffledpos:newstafflead, stafftitle: newstafftile, staffpos: newstaffpos, staffdep: newstaffdep, stafftext: newstafftext, compemail: newcompemail, compphone: newcompphone, comproom: newcomproom, complogo: complogo}, function(err, todo){
+        req.flash('success', 'You modified a staff member!');
         res.redirect('/todos');
     });
 });

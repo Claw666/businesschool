@@ -5,6 +5,9 @@ var todoSchema = mongoose.Schema ({
   compname: {
     type: String
   },
+  stafflastname: {
+    type: String
+  },
   staffledpos: {
     type: String
   },
